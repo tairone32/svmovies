@@ -7,7 +7,7 @@ import { BASE_URL } from 'utils/requests';
 import {validateEmail} from 'utils/validate';
 
 
-type Props = {movieId : string}
+type Props = { movieId : string}
 
 function FormCard({movieId} : Props) {
     
