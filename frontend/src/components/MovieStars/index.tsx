@@ -39,7 +39,9 @@ function Star({fill} : StarProps){
   else if (fill === 1){
     return <StarFull/>
   }
-  else <StarHalf />
+  else { 
+    return <StarHalf/> 
+  }
 }
 
 function MovieStar({score} : Props){
